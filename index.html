@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio</title>
+    <link rel="stylesheet" href="css/onefile.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"> <img src="img/logo.avif" alt="Logo" />
+                    <div class="logo-text"> <span>JoyceDev</span>
+                        <p class="tagline">Bachelor of Science in IT Student</p>
+                    </div>
+                </div> <input type="checkbox" id="toggle"> <label for="toggle" class="hamburger">☰</label>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="profile-about-wrapper">
+        <section class="profile">
+            <div class="profile-content">
+                <div class="profile-text">
+                    <h1>Hi, I'm Joyce</h1>
+                    <p>Bachelor of Science in IT student passionate about web development, design, and interactive
+                        experiences.</p>
+                    <div class="profile-buttons"> <a href="#projects" class="btn">View Projects</a> </div>
+                </div>
+                <div class="profile-image"> <img src="img/P.jpg" alt="Joyce Image"> </div>
+            </div>
+        </section>
+
+
+        <!-- RIGHT: ABOUT -->
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hello! I am a passionate IT student who loves coding, learning new technologies, and building
+                    creative projects.</p>
+                <p>I enjoy experimenting with web design and creating interactive applications. Always eager to improve
+                    my skills.</p>
+                <div class="profile-buttons"> <a href="#contact" class="btn btn-darkblue">Contact Me</a> </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Project -->
+    <section class="projects" id="projects">
+        <div class="projects-wrapper">
+            <h2>Selected Projects</h2>
+            <div class="project-cards">
+                <div class="project-card"> <img src="img/1.png" alt="Project 1">
+                    <h3>Profilepage</h3>
+                    <p>A responsive personal portfolio website showcasing skills and projects using HTML, CSS. </p> <a
+                        href="#" class="btn-darkblue">View Project</a>
+                </div>
+                <div class="project-card"> <img src="img/2.png" alt="Project 2">
+                    <h3>Node.js Project</h3>
+                    <p>A backend application for managing apartment listings and bookings using Node.js.</p> <a href="#"
+                        class="btn-darkblue">View Project</a>
+                </div>
+                <div class="project-card"> <img src="img/3.png" alt="Project 3">
+                    <h3>DogCenters</h3>
+                    <p>PetRescue platform to help find and adopt pets, featuring pet listings and adoption details.</p>
+                    <a href="#" class="btn-darkblue">View Project</a>
+                </div>
+                <div class="project-card"> <img src="img/4.png" alt="Project 4">
+                    <h3>Bookings Project</h3>
+                    <p>A booking management system for hotels or services with scheduling features.</p> <a href="#"
+                        class="btn-darkblue">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="img/5.png" alt="CodeLearn Library">
+                    <h3>CodeLearn Library</h3>
+                    <p>An online learning hub offering coding tutorials, resources, and beginner-friendly programming
+                        guides.</p>
+                    <a href="#" class="btn-darkblue">View Project</a>
+                </div>
+
+                <div class="project-card"> <img src="img/6.png" alt="Weather App">
+                    <h3>Weather</h3>
+                    <p>A weather forecast application that displays real-time weather updates for any location.</p> <a
+                        href="#" class="btn-darkblue">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+        <div class="services-wrapper">
+            <h2>What I Can Do</h2>
+
+            <div class="services-cards">
+
+                <div class="service-card">
+                    <img src="img/w1.jpg" alt="Web Development">
+                    <h3>Website Development</h3>
+                    <p>I create simple and functional websites using HTML, CSS, JavaScript, and beginner-friendly
+                        backend tools.</p>
+                </div>
+
+                <div class="service-card">
+                    <img src="img/w2.avif" alt="UI UX Design">
+                    <h3>Basic UI/UX Design</h3>
+                    <p>I design clean and user-friendly interfaces for projects, prototypes, and school activities.</p>
+                </div>
+
+                <div class="service-card">
+                    <img src="img/w3.jpg" alt="Responsive Design">
+                    <h3>Responsive Layouts</h3>
+                    <p>I make layouts that adjust smoothly on phones, tablets, and desktops to improve user experience.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <img src="img/w4.jpg" alt="Programming Assistance">
+                    <h3>Programming Assistance</h3>
+                    <p>I can help with basic coding tasks, debugging school projects, and understanding programming
+                        concepts.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-wrapper">
+            <h2>Contact Me</h2>
+            <div class="contact-flex">
+
+                <!-- LEFT: Form -->
+                <div class="contact-form-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-darkblue">Send Message</button>
+                        <p class="success-message">Message sent successfully!</p>
+                    </form>
+                </div>
+
+                <!-- RIGHT: Contact Info -->
+
+                <div class="contact-info-card">
+                    <div class="info-content">
+                        <h3>Get in Touch</h3>
+                        <p>Feel free to reach out to me through the form or contact info below.</p>
+                        <div class="info-item">
+                            <span></span> gaasjoyce51@gmail.com
+                        </div>
+                        <div class="info-item">
+                            <span></span> +63 912 345 6789
+                        </div>
+                        <div class="info-item">
+                            <span></span> Philippines
+                        </div>
+                    </div>
+
+                     <div class="info-image">
+                        <img src="img/c.png" alt="Contact Image">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>© 2025 JoyceDev. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
